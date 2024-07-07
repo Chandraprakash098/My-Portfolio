@@ -12,14 +12,11 @@ const ContactPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post(
-        "http://localhost:8080/api/v1/portfolio/sendEmail",
-        {
-          name,
-          email,
-          message,
-        }
-      );
+      const res = await axios.post("/api/v1/portfolio/sendEmail", {
+        name,
+        email,
+        message,
+      });
       if (res.data.success) {
         alert("Message Sent Successfully");
         setName("");
