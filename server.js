@@ -10,20 +10,20 @@ app.use(cors());
 app.use(express.json());
 
 // Static files
-app.use(express.static(path.join(__dirname, "frontend/build")));
+app.use(express.static(path.join(__dirname, "./frontend/build")));
 
 // Routes
 app.use("/api/v1/portfolio", require("./routes/PortfolioRoute"));
 
 // Serve index.html for any other routes (React Router routes)
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "frontend/build", "index.html"));
+  res.sendFile(path.join(__dirname, "./frontend/build/index.html"));
 });
 
 // Port
-const PORT = process.env.PORT || 5000;
+const port = process.env.PORT || 8080;
 
 // Start server
-app.listen(PORT, () => {
-  console.log(`Server is listening on PORT ${PORT}`);
+app.listen(port, () => {
+  console.log(`Server is listening on PORT ${port}`);
 });
