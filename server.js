@@ -11,14 +11,14 @@ app.use(cors())
 app.use(express.json())
 
 //static files
-app.use(express.static(path.join(__dirname,'./frontend/build/')))
+app.use(express.static(path.join(__dirname, "frontend", "build")));
 
 //Routes
 app.use('/api/v1/portfolio', require('./routes/PortfolioRoute'))
 
-app.get('*',(req,res)=>{
-    res.sendFile(path.join(__dirname,'./frontend/build/index.html'))
-})
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "frontend", "build", "index.html"));
+});
 
 //port
 const PORT =process.env.PORT || 5000
