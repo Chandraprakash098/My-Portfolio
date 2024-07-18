@@ -36,9 +36,12 @@ const ProjectPage = () => {
               </div>
               <div className="card-body">
                 <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">Shopping Website</h5>
+                  <h5 className="text-uppercase">Techstore Website</h5>
                 </div>
-                <a className="ad-btn" href="#">
+                <a
+                  className="ad-btn"
+                  href="https://techstore-aiio.onrender.com/"
+                >
                   View
                 </a>
               </div>
