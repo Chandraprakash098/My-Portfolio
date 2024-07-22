@@ -26,7 +26,7 @@ const EducationPage = () => {
           >
             <h3 className="vertical-timeline-element-title">Advance Diploma in Computer Application</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              NSUI
+              NIDM
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement

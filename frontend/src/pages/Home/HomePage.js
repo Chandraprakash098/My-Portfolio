@@ -1,7 +1,7 @@
 import React from "react";
 import { useTheme } from "../../context/ThemeContext";
 import Typewriter from "typewriter-effect";
-import Resume from "../../img/resume.pdf";
+import Resume from "../../img/My-Resume.pdf";
 import { LuSunMoon } from "react-icons/lu";
 import { IoMdSunny } from "react-icons/io";
 import "./HomePage.css";
@@ -25,7 +25,7 @@ const HomePage = () => {
           <h1>
             <Typewriter
               options={{
-                strings: ["MERN Developer", "React native Developer"],
+                strings: ["MERN Developer"],
                 autoStart: true,
                 loop: true,
               }}
