@@ -9,14 +9,17 @@ const ProjectPage = () => {
         </h2>
         <hr />
         <p className="pb-3 text-center">
-          I just blank this thing so i write this when I complete some project
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          I have developed a Techstore website using the MERN stack, which
+          includes features for browsing and purchasing electronic products such
+          as laptops and mobiles. The website provides a seamless shopping
+          experience with functionalities like product filtering, search, and a
+          shopping cart integrated with Braintree for payment processing.
+          Additionally, I have created a Jail Management System specifically for
+          the superintendent of a jail. This system, also built with the MERN
+          stack, includes modules for managing prisoners, visitations, incident
+          reporting, and generating reports and analytics. The application
+          ensures secure access and data management, allowing the superintendent
+          to efficiently oversee and maintain prison operations.
         </p>
         <div className="row" id="ads">
           <div className="col-md-4">
@@ -65,9 +68,12 @@ const ProjectPage = () => {
               </div>
               <div className="card-body">
                 <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">Doctor Appointment website</h5>
+                  <h5 className="text-uppercase">Jail Management website</h5>
                 </div>
-                <a className="ad-btn" href="#">
+                <a
+                  className="ad-btn"
+                  href="https://jail-management.onrender.com"
+                >
                   View
                 </a>
               </div>
