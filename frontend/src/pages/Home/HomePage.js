@@ -25,7 +25,7 @@ const HomePage = () => {
           <h1>
             <Typewriter
               options={{
-                strings: ["MERN Developer"],
+                strings: ["MERN Developer", "Next.js Developer"],
                 autoStart: true,
                 loop: true,
               }}
@@ -37,7 +37,9 @@ const HomePage = () => {
               href="https://api.whatsapp.com/send?phone=6204421804"
               rel="noreferrer"
               target="_blank"
-            >Hire Me</a>
+            >
+              Hire Me
+            </a>
             <a
               className="btn btn-cv"
               href={Resume}
