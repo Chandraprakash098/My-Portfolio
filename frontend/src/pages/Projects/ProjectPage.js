@@ -68,7 +68,9 @@ const ProjectPage = () => {
               </div>
               <div className="card-body">
                 <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">Jail Management website</h5>
+                  <h5 className="text-uppercase">
+                    Detention Center Management 
+                  </h5>
                 </div>
                 <a
                   className="ad-btn"
@@ -91,6 +93,7 @@ const ProjectPage = () => {
               </div>
               <div className="card-image-overlay m-auto mt-3">
                 <span className="card-details-badge">Next.js</span>
+                <span className="card-details-badge">MongoDB</span>
               </div>
               <div className="card-body">
                 <div className="ad-title m-auto">
