@@ -85,7 +85,7 @@ const ProjectPage = () => {
               <div className="card-image">
                 <span className="card-notify-badge">Next.JS</span>
                 <img
-                  src="https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNnKb5dCzEQl5jiA9BCYSJxZO0n4p70_TOXA&s"
                   alt="Project3"
                 />
               </div>
@@ -96,10 +96,7 @@ const ProjectPage = () => {
                 <div className="ad-title m-auto">
                   <h5 className="text-uppercase">Pharmacy App</h5>
                 </div>
-                <a
-                  className="ad-btn"
-                  href="pharmacy-app-azure.vercel.app"
-                >
+                <a className="ad-btn" href="pharmacy-app-azure.vercel.app">
                   View
                 </a>
               </div>
