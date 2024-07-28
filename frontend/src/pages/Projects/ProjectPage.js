@@ -96,7 +96,10 @@ const ProjectPage = () => {
                 <div className="ad-title m-auto">
                   <h5 className="text-uppercase">Pharmacy App</h5>
                 </div>
-                <a className="ad-btn" href="pharmacy-app-azure.vercel.app">
+                <a
+                  className="ad-btn"
+                  href="https://pharmacy-app-azure.vercel.app"
+                >
                   View
                 </a>
               </div>
