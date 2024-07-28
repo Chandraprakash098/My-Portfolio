@@ -83,20 +83,23 @@ const ProjectPage = () => {
           <div className="col-md-4">
             <div className="card rounded">
               <div className="card-image">
-                <span className="card-notify-badge">Mobile App</span>
+                <span className="card-notify-badge">Next.JS</span>
                 <img
                   src="https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg"
                   alt="Project3"
                 />
               </div>
               <div className="card-image-overlay m-auto mt-3">
-                <span className="card-details-badge">React Native</span>
+                <span className="card-details-badge">Next.js</span>
               </div>
               <div className="card-body">
                 <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">Android App</h5>
+                  <h5 className="text-uppercase">Pharmacy App</h5>
                 </div>
-                <a className="ad-btn" href="#">
+                <a
+                  className="ad-btn"
+                  href="pharmacy-app-azure.vercel.app"
+                >
                   View
                 </a>
               </div>

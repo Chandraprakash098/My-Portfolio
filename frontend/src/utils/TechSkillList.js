@@ -69,7 +69,7 @@ export const TechSkillList = [
   },
   {
     _id: 11,
-    name: "React Native",
+    name: "Next.JS",
     icon: FaReact,
   },
   {
