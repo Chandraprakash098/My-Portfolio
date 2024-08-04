@@ -32,9 +32,9 @@ const ProjectPage = () => {
                 />
               </div>
               <div className="card-image-overlay m-auto mt-3">
-                <span className="card-details-badge">React Js</span>
-                <span className="card-details-badge">Node Js</span>
-                <span className="card-details-badge">Express</span>
+                <span className="card-details-badge">React</span>
+                <span className="card-details-badge">Node js</span>
+                <span className="card-details-badge">Express js</span>
                 <span className="card-details-badge">MongoDB</span>
               </div>
               <div className="card-body">
@@ -61,15 +61,15 @@ const ProjectPage = () => {
                 />
               </div>
               <div className="card-image-overlay m-auto mt-3">
-                <span className="card-details-badge">React Js</span>
-                <span className="card-details-badge">Node Js</span>
-                <span className="card-details-badge">Express</span>
+                <span className="card-details-badge">React</span>
+                <span className="card-details-badge">Node js</span>
+                <span className="card-details-badge">Express js</span>
                 <span className="card-details-badge">MongoDB</span>
               </div>
               <div className="card-body">
                 <div className="ad-title m-auto">
                   <h5 className="text-uppercase">
-                    Detention Center Management 
+                    Detention Center Management
                   </h5>
                 </div>
                 <a
@@ -85,23 +85,25 @@ const ProjectPage = () => {
           <div className="col-md-4">
             <div className="card rounded">
               <div className="card-image">
-                <span className="card-notify-badge">Next.JS</span>
+                <span className="card-notify-badge">NextJS</span>
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNnKb5dCzEQl5jiA9BCYSJxZO0n4p70_TOXA&s"
                   alt="Project3"
                 />
               </div>
               <div className="card-image-overlay m-auto mt-3">
-                <span className="card-details-badge">Next.js</span>
+                <span className="card-details-badge">Nextjs</span>
                 <span className="card-details-badge">MongoDB</span>
               </div>
               <div className="card-body">
                 <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">Pharmacy App</h5>
+                  <h5 className="text-uppercase">
+                    personalized-news-aggregator
+                  </h5>
                 </div>
                 <a
                   className="ad-btn"
-                  href="https://pharmacy-app-azure.vercel.app"
+                  href="https://personalized-news-aggregator-three.vercel.app"
                 >
                   View
                 </a>
