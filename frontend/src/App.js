@@ -27,7 +27,7 @@ const App = () => {
         </div>
         <div className="footer pb-3 ms-3">
           <h4 className="text-center">
-            Made with 🤷‍♂️Chandra Prakash &copy; 2024
+            Made with 🤷‍♂️ by Chandra Prakash &copy; 2024
           </h4>
         </div>
       </div>
