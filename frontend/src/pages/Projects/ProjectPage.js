@@ -110,6 +110,32 @@ const ProjectPage = () => {
               </div>
             </div>
           </div>
+          {/* 4th */}
+          <div className="col-md-4">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">MERN Stack</span>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNnKb5dCzEQl5jiA9BCYSJxZO0n4p70_TOXA&s"
+                  alt="Project2"
+                />
+              </div>
+              <div className="card-image-overlay m-auto mt-3">
+                <span className="card-details-badge">HTML</span>
+                <span className="card-details-badge">CSS</span>
+                <span className="card-details-badge">Django</span>
+                <span className="card-details-badge">Sqlite</span>
+              </div>
+              <div className="card-body">
+                <div className="ad-title m-auto">
+                  <h5 className="text-uppercase">StudyLoom</h5>
+                </div>
+                <a className="ad-btn" href="https://studyloom.onrender.com">
+                  View
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

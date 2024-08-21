@@ -25,7 +25,7 @@ const HomePage = () => {
           <h1>
             <Typewriter
               options={{
-                strings: ["MERN Developer", "Next.js Developer"],
+                strings: ["MERN Developer", "Next.js Developer","Python Developer"],
                 autoStart: true,
                 loop: true,
               }}
