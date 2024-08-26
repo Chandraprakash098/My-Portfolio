@@ -114,7 +114,7 @@ const ProjectPage = () => {
           <div className="col-md-4">
             <div className="card rounded">
               <div className="card-image">
-                <span className="card-notify-badge">MERN Stack</span>
+                <span className="card-notify-badge">Django</span>
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNnKb5dCzEQl5jiA9BCYSJxZO0n4p70_TOXA&s"
                   alt="Project2"
