@@ -92,7 +92,7 @@ const ProjectPage = () => {
                 />
               </div>
               <div className="card-image-overlay m-auto mt-3">
-                <span className="card-details-badge">Nextjs</span>
+                <span className="card-details-badge">Next js</span>
                 <span className="card-details-badge">MongoDB</span>
               </div>
               <div className="card-body">
