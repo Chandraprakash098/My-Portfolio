@@ -49,8 +49,20 @@ const ContactPage = () => {
                 <div className="row">
                   <h6>
                     Contact with
-                    <FaLinkedin size={30} color="blue" className="ms-2" />
-                    <FaGithub size={30} color="black" className="ms-2" />
+                    <a
+                      href="https://www.linkedin.com/in/chandra-prakash-062541248"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FaLinkedin size={30} color="blue" className="ms-2" />
+                    </a>
+                    <a
+                      href="https://github.com/Chandraprakash098"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FaGithub size={30} color="black" className="ms-2" />
+                    </a>
                   </h6>
                   <div className="row px-3 mb-4">
                     <div className="line" />
