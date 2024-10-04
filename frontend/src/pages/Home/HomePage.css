@@ -16,7 +16,8 @@
 }
 
 .home-content h1 {
-    color: greenyellow;
+    color: blue;
+    font-weight: bold;
     padding: 5px;
 }
 

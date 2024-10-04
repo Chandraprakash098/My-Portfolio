@@ -8,7 +8,7 @@ const ProjectPage = () => {
           Projects
         </h2>
         <hr />
-        <p className="pb-3 text-center">
+        {/* <p className="pb-3 text-center">
           I have developed a Techstore website using the MERN stack, which
           includes features for browsing and purchasing electronic products such
           as laptops and mobiles. The website provides a seamless shopping
@@ -20,7 +20,7 @@ const ProjectPage = () => {
           reporting, and generating reports and analytics. The application
           ensures secure access and data management, allowing the superintendent
           to efficiently oversee and maintain prison operations.
-        </p>
+        </p> */}
         <div className="row" id="ads">
           <div className="col-md-4">
             <div className="card rounded">
@@ -39,11 +39,13 @@ const ProjectPage = () => {
               </div>
               <div className="card-body">
                 <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">Techstore Website</h5>
+                  <h5 className="text-uppercase">
+                    Smart Service and Utility System{" "}
+                  </h5>
                 </div>
                 <a
                   className="ad-btn"
-                  href="https://techstore-aiio.onrender.com/"
+                  href="https://smart-service-system.onrender.com/"
                 >
                   View
                 </a>
