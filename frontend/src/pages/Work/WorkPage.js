@@ -18,12 +18,12 @@ const WorkPage = () => {
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: "orange", color: "black" }}
+              contentStyle={{ background: "green", color: "white" }}
               contentArrowStyle={{
-                borderRight: "7px solid  rgb(33, 150, 243)",
+                borderRight: "30px solid  red",
               }}
               date="Dec2023-march2024"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "pink" }}
               icon={<FaNetworkWired />}
             >
               <h3 className="vertical-timeline-element-title">

@@ -18,8 +18,8 @@ const EducationPage = () => {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "gray", color: "white" }}
-            contentArrowStyle={{ borderRight: "7px solid  black" }}
+            contentStyle={{ background: "green", color: "white" }}
+            contentArrowStyle={{ borderRight: "30px solid  red" }}
             date=""
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<FaSchool />}
@@ -31,8 +31,8 @@ const EducationPage = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "gray", color: "white" }}
-            contentArrowStyle={{ borderRight: "7px solid  black" }}
+            contentStyle={{ background: "green", color: "white" }}
+            contentArrowStyle={{ borderRight: "30px solid  red" }}
             date="2021-2025"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<FaSchool />}
